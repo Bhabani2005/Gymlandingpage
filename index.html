@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muscle Matrix</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/732625e7de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <nav>
+            <h2 class="heading">Muscle<span>Matrix</span></h2>
+            <ul id="sidemenu">
+                <li><a href="#header" class="list">Home</a></li>
+                <li><a href="#about" class="list">About</a></li>
+                <li><a href="#service" class="list">Services</a></li>
+                <li><a href="#Contact-us" class="list">Contact Us</a></li>
+                <button class="logbutton" type="button">Login/Register</button>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="content">
+            <h1>Push</h1>
+            <h1>Your <span>Limits</span></h1>
+            <p>Fitness is not about<br>
+                being better than someone<br>
+                else. It's about being<br>
+                better than you used to be.
+            </p>
+            <div class="login">
+                <form name="submit-to-google-sheet">
+                    <input type="email" value="" placeholder="Enter your email">
+                    <button type="submit">Book now</button> 
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <section id="about">
+        <div class="main">
+            <img src="./posing-for-a-camera-group-of-young-sportive-people-have-crossfit-day-indoors-in-gym-photo.jpg">
+            <div class="about-text">
+                <h2>About <span>Us</span></h2>
+                <p>Hey there! We're a super cool gym where you can get strong and healthy! 🌟 Our gym is full of awesome equipment and friendly trainers who will help you reach your fitness goals. Whether you want to lift weights, do yoga, or just have fun working out, we've got something for everyone.Come join our gym family and let's get fit together! 💪<br><br> Keep it friendly and inviting, just like a happy place where everyone wants to come and exercise. </p>
+                <button type="button">Let's talk</button>
+            </div>
+        </div>
+    </section>
+    <div id="service">
+        <div class="title">
+            <h2>Our Services</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-dumbbell"></i>
+                <h5>Personal Training</h5>
+                <div class="pra">
+                    <p>Get one-on-one attention from our expert trainers who will create a custom workout plan just for you.</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="none">Read More</a>
+                    </p>
+                </div>
+            </div>
+       
+        
+            <div class="card">
+                <i class="fa-solid fa-people-group"></i>
+                <h5>Group classes</h5>
+                <div class="pra">
+                    <p>Join our exciting group classes like yoga, Zumba more. It's a great way to stay motivated and make new friends!</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="">Read More</a>
+                    </p>
+                </div>
+            </div>
+        
+        
+            <div class="card">
+                <i class="fa-brands fa-nutritionix"></i>
+                <h5>Nutrition Coaching</h5>
+                <div class="pra">
+                    <p>Our nutrition experts will help you create a healthy eating plan that fits your lifestyle and goals</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="Contact-us">
+        <p>We’d love to hear from you! Whether you have questions, need more information, or want to sign up,   get in touch with us:<br><br>
+            Visit Us:<br>
+            123 Fitness Street, Healthy Town, USA
+            <br><br>
+            Call Us:
+            (123) 456-7890
+            <br><br>
+            Email Us:
+            musclematrix@gmail.com
+        </p>
+
+    </div>
+    <footer>
+        <p>MuscleMatrix</p>
+        <p>For more queries contact us below:</p>
+        <div class="social">
+           <a href="#"><i class="fa-brands fa-instagram"></i></a>
+           <a href="#"><i class="fa-brands fa-facebook"></i></a>
+           <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+           <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <p class="end">©2024 MuscleMatrix All rights reserved.</p>
+    </footer>
+    <script>
+       var sidemenu= document.getElementById("sidemenu");
+       function openmenu(){
+        sidemenu.style.right="0";
+       }
+       function closemenu(){
+        sidemenu.style.right="-200px";
+       }
+    </script>
+</body>
+</html>
